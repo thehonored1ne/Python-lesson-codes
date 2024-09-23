@@ -164,7 +164,7 @@ def is_year_leap(year):
     elif year % 4 == 0:
         return True
     else:
-       return False
+       return True
     
 test_data = [1900, 2000, 2016, 1987]
 test_results = [False, True, True, False]
