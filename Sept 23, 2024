@@ -1,0 +1,25 @@
+#Python
+#Dion L. Areglo
+#BSIT 202
+#Integrative Programming Technologies
+
+#Write your codes here...
+print("Enter a value: ")
+a = int(input())
+
+print("Enter a value: ")
+b = int(input())
+print("Enter a value: ")
+c = int(input())
+
+
+
+
+
+
+
+
+
+
+
+
