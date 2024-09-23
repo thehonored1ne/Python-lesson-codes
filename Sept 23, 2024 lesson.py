@@ -144,7 +144,6 @@ def list_sum(lst):
 
 print(list_sum([5,4,3]))
 
-'''
 def strange_list_fun(n):
     strange_list = []
     
@@ -154,6 +153,30 @@ def strange_list_fun(n):
     return strange_list
     
 print(strange_list_fun(5))
+
+'''
+def is_year_leap(year):
+
+    if year % 400 == 0:
+        return True
+    elif year % 100 == 0:
+        return False
+    elif year % 4 == 0:
+        return True
+    else:
+       return False
+    
+test_data = [1900, 2000, 2016, 1987]
+test_results = [False, True, True, False]
+
+for i in range(len(test_data)):
+    yr = test_data[i]
+    print(yr, "->", end = "")
+    result = is_year_leap(yr)
+    if result == test_results[i]:
+        print("ok")
+    else:
+        print("failed")
 
 
 
